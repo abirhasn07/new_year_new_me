@@ -1,0 +1,248 @@
+/* CSS RESETS  */
+/* Box-sizing border-box reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+dl,
+dd,
+dt,
+form,
+fieldset,
+legend,
+blockquote,
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set font size and line-height */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+}
+li {
+  list-style: none;
+}
+
+/* Remove default hyperlink styling */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove underline from headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-decoration: none;
+}
+
+/* Remove borders and outlines */
+button,
+input,
+select,
+textarea {
+  border: none;
+  outline: none;
+}
+
+/* Set default font family and font weight */
+body {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+}
+
+/* Set default background color and text color */
+body {
+  background-color: #fff;
+  color: #333;
+  max-width: 1600px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.top-section {
+  background: url(./images/banner1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-info {
+  width: 50%;
+
+  margin-left: auto;
+  padding-right: 2em;
+}
+.section-info > p {
+  margin-top: 1em;
+  width: 70%;
+  margin-left: auto;
+}
+
+button {
+  background-color: #f15b22;
+  color: white;
+  height: 40px;
+  width: 150px;
+  font-size: 1.2rem;
+  margin-top: 1em;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex > figure {
+  width: 45%;
+}
+
+.flex > figure > img {
+  width: 80%;
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.flex > figcaption {
+  width: 45%;
+}
+.section-title {
+  text-align: center;
+  text-transform: capitalize;
+  margin-block: 1em;
+  font-size: 2em;
+}
+.plan-container {
+  width: 80%;
+  margin-inline: auto;
+}
+.plan-card {
+  text-align: center;
+  width: 25%;
+}
+
+.positive {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(211, 131, 18, 0.7),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url("./images/watch.png");
+  background-size: cover;
+  height: 300px;
+  margin-block: 2em;
+  width: 80%;
+  margin-inline: auto;
+  border-radius: 1em;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 2em;
+}
+.positive-info {
+  width: 60%;
+
+  padding-left: 2em;
+}
+
+.positive-info h2 {
+  font-size: 2em;
+  width: 80%;
+  font-weight: bolder;
+}
+
+.btn-secondary {
+  background-color: white;
+  color: #f15b22;
+  font-size: 1.5em;
+  text-transform: capitalize;
+}
+
+footer {
+  background-color: #151414;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 0;
+}
+
+.footer-info {
+  width: 40%;
+}
+.subscribe {
+  width: 40%;
+  text-align: right;
+}
+
+input[type="email"] {
+  background-color: transparent;
+  border: 1px solid white;
+  display: block;
+  margin-left: auto;
+  height: 35px;
+  border-radius: 0.2em;
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  -ms-border-radius: 0.2em;
+  -o-border-radius: 0.2em;
+  width: 250px;
+  margin-top: 1em;
+}
+input[type="submit"] {
+  background-color: white;
+  color: #f15b22;
+  width: 150px;
+  height: 35px;
+  font-size: 1.2rem;
+  margin-top: 1em;
+  border-radius: 0.2em;
+}
